@@ -4,6 +4,12 @@ import java.util.Optional;
 
 import drsolutions.pontointeligente.api.entities.Empresa;
 
+/**
+ * Interface para a implementação do serviço EmpresaServiceImpl.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 public interface EmpresaService {
 
 	/**

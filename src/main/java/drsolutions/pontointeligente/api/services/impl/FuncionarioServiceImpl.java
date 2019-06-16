@@ -11,6 +11,12 @@ import drsolutions.pontointeligente.api.entities.Funcionario;
 import drsolutions.pontointeligente.api.repositories.FuncionarioRepository;
 import drsolutions.pontointeligente.api.services.FuncionarioService;
 
+/**
+ * Implementação so serviço FuncionarioServiceImpl.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 @Service
 public class FuncionarioServiceImpl implements FuncionarioService {
 

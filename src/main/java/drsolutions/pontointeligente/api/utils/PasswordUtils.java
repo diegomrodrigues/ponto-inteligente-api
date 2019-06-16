@@ -4,6 +4,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+/**
+ * Classe utilitária para a geração de hash utilizando o BCrypt.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 public class PasswordUtils {
 
 	private static final Logger log = LoggerFactory.getLogger(PasswordUtils.class);

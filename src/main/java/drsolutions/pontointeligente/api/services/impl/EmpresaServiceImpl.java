@@ -11,6 +11,12 @@ import drsolutions.pontointeligente.api.entities.Empresa;
 import drsolutions.pontointeligente.api.repositories.EmpresaRepository;
 import drsolutions.pontointeligente.api.services.EmpresaService;
 
+/**
+ * Implementação so serviço EmpresaServiceImpl.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 @Service
 public class EmpresaServiceImpl implements EmpresaService {
 

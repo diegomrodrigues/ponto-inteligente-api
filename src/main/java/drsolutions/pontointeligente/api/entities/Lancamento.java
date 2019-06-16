@@ -20,6 +20,25 @@ import javax.persistence.TemporalType;
 
 import drsolutions.pontointeligente.api.enums.TipoEnum;
 
+/**
+ * Mapeamento objeto-relacional, deixando de ser necessário criarmos soluções com o intuito de 
+ * converter dados em objetos e vice-versa.<br/>
+ * <br/>
+ * A anotação @Entity é utilizada para informar que uma classe também é uma entidade. 
+ * A partir disso, a JPA estabelecerá a ligação entre a entidade e uma tabela de mesmo nome, 
+ * no banco de dados, onde os dados de objetos desse tipo poderão ser persistidos.<br/>
+ * Uma entidade representa, na Orientação a Objetos, uma tabela do banco de dados, e cada instância 
+ * dessa entidade representa uma linha dessa tabela.<br/>
+ * <br/>
+ * Caso a tabela possua um nome diferente, podemos estabelecer esse mapeamento com a anotação 
+ * @Table(name=").<br/>
+ * <br/>
+ * Objeto (Classe): Lancamento<br/>
+ * Tabela: lancamento
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 @Entity
 @Table(name = "lancamento")
 public class Lancamento implements Serializable {

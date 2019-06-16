@@ -4,6 +4,12 @@ import java.util.Optional;
 
 import drsolutions.pontointeligente.api.entities.Funcionario;
 
+/**
+ * Interface para a implementação do serviço FuncionarioServiceImpl.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 public interface FuncionarioService {
 
 	/**

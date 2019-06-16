@@ -8,6 +8,12 @@ import org.springframework.data.domain.PageRequest;
 
 import drsolutions.pontointeligente.api.entities.Lancamento;
 
+/**
+ * Interface para a implementação do serviço LancamentoServiceImpl.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 public interface LancamentoService {
 
 	/**

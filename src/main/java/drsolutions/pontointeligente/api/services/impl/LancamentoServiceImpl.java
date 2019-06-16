@@ -14,6 +14,12 @@ import drsolutions.pontointeligente.api.entities.Lancamento;
 import drsolutions.pontointeligente.api.repositories.LancamentoRepository;
 import drsolutions.pontointeligente.api.services.LancamentoService;
 
+/**
+ * Implementação so serviço LancamentoServiceImpl.
+ * 
+ * @author Diego M. Rodrigues
+ *
+ */
 @Service
 public class LancamentoServiceImpl implements LancamentoService {
 	private static final Logger log = LoggerFactory.getLogger(LancamentoServiceImpl.class);

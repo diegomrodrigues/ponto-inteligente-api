@@ -1,9 +1,9 @@
 package drsolutions.pontointeligente.api.enums;
 
 /**
- * Tipos de lançamentos de horas dos funcionários
+ * Tipos de lançamentos de horas dos funcionários.
  * 
- * @author diego
+ * @author Diego M. Rodrigues
  *
  */
 public enum TipoEnum {
