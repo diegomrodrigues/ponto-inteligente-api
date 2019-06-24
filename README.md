@@ -11,7 +11,8 @@ API para um sistema de **Ponto Inteligente**, utilizando o Java e o Spring Boot.
 * MySQL  
 * H2  
 * Flyway: Framework que permite o versionamento e automatização no processo de criação​ ​de​ ​banco​ ​de​ ​dados 
-* Swagger: Estrutura de software de código aberto que ajuda os desenvolvedores a projetar, criar, documentar e consumir serviços da Web RESTful  
+* Swagger: Estrutura de software de código aberto que ajuda os desenvolvedores a projetar, criar, documentar e consumir serviços da Web RESTful
+* Ehcache: Cache distribuído do Java de código-fonte aberto, para armazenamento em cache de propósito geral, no Java EE e em contêineres leves.  
   
   
 ## Armazenamento

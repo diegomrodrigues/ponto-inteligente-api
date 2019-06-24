@@ -2,6 +2,7 @@ package drsolutions.pontointeligente.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * Classe de entrada na API Ponto Inteligente.<br/>
@@ -16,6 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
+@EnableCaching
 public class PontoInteligenteApplication {
 
 	public static void main(String[] args) {
