@@ -217,8 +217,9 @@ public class Funcionario implements Serializable {
 	@Override
 	public String toString() {
 		return "Funcionario [id=" + id + ", nome=" + nome + ", email=" + email + ", senha=" + senha + ", cpf=" + cpf
-				+ ", valorHora=" + valorHora + ", qtdHorasTrabalhoDia=" + qtdHorasTrabalhoDia + ", qtdHorasAlmoco="
+				+ ", qtdHorasTrabalhoDia=" + qtdHorasTrabalhoDia + ", qtdHorasAlmoco="
 				+ qtdHorasAlmoco + ", perfil=" + perfil + ", dataCriacao=" + dataCriacao + ", dataAtualizacao="
 				+ dataAtualizacao + ", empresa=" + empresa + ", lancamentos=" + lancamentos + "]";
 	}
+
 }
