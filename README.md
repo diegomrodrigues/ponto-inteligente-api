@@ -26,6 +26,7 @@ API para um sistema de **Ponto Inteligente**, utilizando o Java e o Spring Boot.
 * api.enums: Enumerações utilizadas no sistema
 * api.repositories: Interfaces para os Repositórios utilizados na implementação dos serviços
 * api.response: Classes para encapsular todas as requisições HTTP de nossa​ ​API
+* api.security: Camada de autenticação com JWT
 * api.services: Interfaces para a implementação dos serviços
 * api.services.impl: Implementação dos serviços
 * api.utils: Utilitários da API
