@@ -88,6 +88,13 @@
 		    <groupId>com.fasterxml.jackson.datatype</groupId>
 		    <artifactId>jackson-datatype-jdk8</artifactId>
 		</dependency>
+		
+		<!--  Utilitário para enums -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		    <version>3.6</version>
+		</dependency>
 	</dependencies>
 
 	<build>
